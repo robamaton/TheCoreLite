@@ -1,0 +1,25 @@
+{
+    "title": "StarCraft II - Kinesis Advantage2",
+    "rules": [
+        {
+            "description": "SC2 Kinesis: Left Command to Left Control",
+            "manipulators": [
+                {
+                    "conditions": [
+                        {
+                            "bundle_identifiers": ["com.blizzard.starcraft2"],
+                            "type": "frontmost_application_if"
+                        },
+                        {
+                            "identifiers": [{ "product_id": 258, "vendor_id": 10730 }],
+                            "type": "device_if"
+                        }
+                    ],
+                    "from": { "key_code": "left_command" },
+                    "to": [{ "key_code": "left_control" }],
+                    "type": "basic"
+                }
+            ]
+        }
+    ]
+}
