@@ -51,9 +51,9 @@ CameraMoveRight=L
 
 ## Freed Keys
 
-The transformation leaves these keys accessible but unbound: **Tab**, **CapsLock**, **Equals**, and **Delete**.
+The transformation leaves these keys accessible but unbound: **Tab**, **CapsLock**, **Z**, **Equals**, and **Delete**.
 
-Suggested uses: IdleWorker, Cancel, WarpIn, push-to-talk, or remap edge keys here instead of the bottom row.
+Suggested uses: IdleWorker, Cancel, WarpIn, push-to-talk, remap edge keys here instead of the bottom row, or remap Z to Shift for easier modifier access.
 
 ## Regenerating the Hotkey File
 
