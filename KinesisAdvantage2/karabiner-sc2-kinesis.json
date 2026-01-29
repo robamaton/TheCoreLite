@@ -20,6 +20,27 @@
                     "type": "basic"
                 }
             ]
+        },
+        {
+            "description": "SC2 Kinesis: Z = tap 'z', hold Shift",
+            "manipulators": [
+                {
+                    "conditions": [
+                        {
+                            "bundle_identifiers": ["com.blizzard.starcraft2"],
+                            "type": "frontmost_application_if"
+                        },
+                        {
+                            "identifiers": [{ "product_id": 258, "vendor_id": 10730 }],
+                            "type": "device_if"
+                        }
+                    ],
+                    "from": { "key_code": "z" },
+                    "to": [{ "key_code": "left_shift" }],
+                    "to_if_alone": [{ "key_code": "z" }],
+                    "type": "basic"
+                }
+            ]
         }
     ]
 }

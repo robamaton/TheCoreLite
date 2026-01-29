@@ -11,14 +11,14 @@ from pathlib import Path
 
 # Configuration: key remappings to apply
 # Format: (from_key, to_key)
-# Example: ("A", "Z") moves all A bindings to Z
 KEY_REMAPS = [
+    ("A", "Equals"),  # A becomes Cancel, move Control Group 6 to Equals
 ]
 
 # Configuration: bindings to override
 # Format: (command, new_value)
-# Example: ("IdleWorker", "Tab") changes IdleWorker from F1 to Tab
 BINDING_OVERRIDES = [
+    ("Cancel", "A"),  # Cancel on A for easy access
 ]
 
 def remap_key(line: str, from_key: str, to_key: str) -> str:
