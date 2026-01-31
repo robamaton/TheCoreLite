@@ -19,6 +19,7 @@ KEY_REMAPS = [
 # Format: (command, new_value)
 BINDING_OVERRIDES = [
     ("Cancel", "A"),  # Cancel on A for easy access
+    ("IdleWorker", "Tab"),  # IdleWorker on Tab (was F1)
 ]
 
 def remap_key(line: str, from_key: str, to_key: str) -> str:
